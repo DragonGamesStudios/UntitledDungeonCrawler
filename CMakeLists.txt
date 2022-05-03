@@ -14,4 +14,4 @@ set(UDC_SOURCE_HPP
 source_group(Sources ${UDC_SOURCE_CPP})
 source_group(Headers ${UDC_SOURCE_HPP})
 
-add_executable(UntitledDungeonCrawler)
+add_executable(UntitledDungeonCrawler ${UDC_SOURCE_CPP} ${UDC_SOURCE_HPP})
