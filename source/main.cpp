@@ -1,10 +1,10 @@
-#include <iostream>
-#include <lua.hpp>
+#include "App.hpp"
 
 int main()
 {
-    lua_State* L = luaL_newstate();
+    udc_App app;
 
-    std::cout << "Hello World!" << std::endl;
+    app.run();
+
     return 0;
 }
