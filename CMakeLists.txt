@@ -6,9 +6,11 @@ set(UDC_SOURCE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/source)
 
 set(UDC_SOURCE_CPP
     ${UDC_SOURCE_PATH}/main.cpp
+    ${UDC_SOURCE_PATH}/App.cpp
 )
 
 set(UDC_SOURCE_HPP
+    ${UDC_SOURCE_PATH}/App.hpp
 )
 
 source_group(Sources ${UDC_SOURCE_CPP})
